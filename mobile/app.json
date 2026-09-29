@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "newArchEnabled": false,
+    "name": "CCA App",
+    "slug": "CCAApp",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#a8312b"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait"
+        ],
+        "UISupportedInterfaceOrientations~ipad": [
+          "UIInterfaceOrientationPortrait"
+        ]
+      },
+      "buildNumber": "4",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ccaappdev.ccaapp",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC4YlBDS7MvzBi3_xblzByMm7yZkyvsJkw"
+      }
+    },
+    "android": {
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#a8312b"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBxI3JmJ2sOI9FfGiI0e1fDUoOZq2vaPJ0"
+        }
+      },
+      "package": "com.ccaappdev.ccaapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "97cca69e-f15a-47a2-9aea-52eaefcacf94"
+      }
+    },
+    "owner": "cca-appdev"
+  }
+}

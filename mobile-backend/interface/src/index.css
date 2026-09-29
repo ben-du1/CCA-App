@@ -1,0 +1,21 @@
+.Nav {
+  display:flex;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.ManageTeachers textarea {
+  width:300px;
+  min-height:30em;
+  overflow-y: auto;
+}
+
+.Post {
+  border:1px solid black;
+  width:300px;
+}
+
+.ManagePosts textarea {
+  width:300px;
+  min-height:15em
+}
