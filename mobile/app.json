@@ -32,7 +32,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.ccaappdev.ccaapp",
       "config": {
-        "googleMapsApiKey": "AIzaSyC4YlBDS7MvzBi3_xblzByMm7yZkyvsJkw"
+        "googleMapsApiKey": "NOT-REAL-KEY-AIzaSyC4YlBDS7MvzBi3_xblzByMm7yZkyvsJkw"
       }
     },
     "android": {
@@ -43,7 +43,7 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBxI3JmJ2sOI9FfGiI0e1fDUoOZq2vaPJ0"
+          "apiKey": "NOT-REAL-KEY-AIzaSyBxI3JmJ2sOI9FfGiI0e1fDUoOZq2vaPJ0"
         }
       },
       "package": "com.ccaappdev.ccaapp"
